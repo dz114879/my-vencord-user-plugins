@@ -14,14 +14,14 @@
 - reactionFilter: 完全屏蔽用某个表情符号做出的反应
 - scrollToTop: 更稳定的回顶按钮，在文字频道/子区也可用
 
-具体说明请看各Plugins目录内的`README.md`。
+具体说明请看各 Plugin 目录内的`README.md`。
 
 ## 如何使用
 
 0. 安装[git](https://git-scm.com/downloads), [Node.js](https://nodejs.org/en/download/) 和 [pnpm](https://pnpm.io/installation)
 1. `git clone https://github.com/dz114879/my-vencord-user-plugins`
 2. `git clone https://github.com/Vendicated/Vencord`
-3. 进入新出现的`Vencord\src`目录下新建`userplugins`目录
+3. 进入新出现的`Vencord\src`目录下，新建`userplugins`目录
 4. 将`my-vencord-user-plugins\(Plugin名字)`整个目录复制到`userplugins`目录下
   - 最终结构应该像这样: `Vencord\src\userplugins\blockPlus`
 5. 在Vencord目录下打开PowerShell等终端，依次执行:
