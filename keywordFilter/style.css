@@ -1,0 +1,44 @@
+.vc-keywordfilter-rule {
+    display: flex;
+    gap: 0.5em;
+    align-items: flex-start;
+}
+
+.vc-keywordfilter-rule > :first-child {
+    flex: 1;
+}
+
+.vc-keywordfilter-regex-toggle {
+    font-family: monospace;
+    min-width: 2.5em;
+    text-align: center;
+}
+
+.vc-keywordfilter-regex-diagnostics {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+    margin-top: 0.25em;
+}
+
+.vc-keywordfilter-regex-diagnostic {
+    font-size: 0.8em;
+    line-height: 1.4;
+}
+
+.vc-keywordfilter-regex-diagnostic-label {
+    font-weight: 600;
+    margin-right: 0.25em;
+}
+
+.vc-keywordfilter-regex-diagnostic-error {
+    color: var(--text-feedback-critical);
+}
+
+.vc-keywordfilter-regex-diagnostic-warning {
+    color: var(--status-warning, #f0b232);
+}
+
+.vc-keywordfilter-regex-diagnostic-info {
+    color: var(--text-muted);
+}

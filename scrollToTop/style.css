@@ -1,0 +1,7 @@
+.vc-scrolltotop-icon {
+    color: var(--interactive-icon-default);
+}
+
+.vc-scrolltotop-btn:hover .vc-scrolltotop-icon {
+    color: var(--interactive-icon-hover);
+}

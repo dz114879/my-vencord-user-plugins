@@ -1,0 +1,19 @@
+.vc-reactionfilter-entry {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.vc-reactionfilter-entry > :first-child {
+    flex: 1;
+}
+
+.vc-reactionfilter-hint {
+    color: var(--text-muted);
+    font-size: 0.85em;
+    margin-top: 0.25em;
+}
+
+.vc-reactionfilter-empty-bar {
+    display: none;
+}

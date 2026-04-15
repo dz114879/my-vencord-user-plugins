@@ -1,0 +1,112 @@
+.vc-blockplus-icon {
+    color: var(--interactive-icon-default);
+}
+
+.vc-blockplus-hidden {
+    display: none !important;
+}
+
+.vc-blockplus-strip-reply [class*="repliedMessage"],
+.vc-blockplus-strip-reply [class*="replyAvatar"],
+.vc-blockplus-strip-reply [class*="repliedTextPreview"],
+.vc-blockplus-strip-reply [class*="repliedTextContent"] {
+    display: none !important;
+}
+
+.vc-blockplus-btn:hover .vc-blockplus-icon {
+    color: var(--interactive-icon-hover);
+}
+
+.vc-blockplus-modal-content {
+    padding: 16px;
+}
+
+.vc-blockplus-add-form {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.vc-blockplus-add-form > :first-child {
+    flex: 1.35;
+    min-width: 0;
+}
+
+.vc-blockplus-add-form .vc-blockplus-mode-select {
+    flex: 0 0 180px;
+    min-width: 180px;
+}
+
+.vc-blockplus-add-form > button {
+    flex: 0 0 auto;
+}
+
+.vc-blockplus-user-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.vc-blockplus-user-entry {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background: var(--background-secondary);
+}
+
+.vc-blockplus-user-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.vc-blockplus-username {
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.vc-blockplus-userid {
+    font-size: 0.8em;
+    color: var(--text-muted);
+}
+
+.vc-blockplus-mode-badge {
+    font-size: 0.75em;
+    padding: 2px 6px;
+    border-radius: 3px;
+    white-space: nowrap;
+}
+
+.vc-blockplus-mode-1 {
+    background: var(--status-danger);
+    color: white;
+}
+
+.vc-blockplus-mode-2 {
+    background: var(--status-warning);
+    color: white;
+}
+
+.vc-blockplus-mode-3 {
+    background: var(--brand-500);
+    color: white;
+}
+
+.vc-blockplus-legend {
+    margin-top: 1em;
+    font-size: 0.85em;
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+
+.vc-blockplus-empty {
+    text-align: center;
+    color: var(--text-muted);
+    padding: 2em;
+}
