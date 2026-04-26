@@ -35,6 +35,7 @@ const settings = definePluginSettings({
 export default definePlugin({
     name: "QuickPlusOne",
     description: "Adds a +1 button to the message popover when holding Shift, to quickly copy or send a message's text content",
+    tags: ["Chat", "Shortcuts"],
     authors: [{ name: "KKTsN", id: 0n }],
     dependencies: ["MessagePopoverAPI"],
     settings,

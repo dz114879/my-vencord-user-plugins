@@ -75,6 +75,7 @@ const settings = definePluginSettings({
 export default definePlugin({
     name: "KeywordFilter",
     description: "Hide messages containing specified keywords or regex patterns",
+    tags: ["Chat", "Utility"],
     authors: [{ name: "KKTsN", id: 0n }],
     settings,
 

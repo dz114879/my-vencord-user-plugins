@@ -163,6 +163,7 @@ function BlockPlusButton() {
 export default definePlugin({
     name: "BlockPlus",
     description: "Enhanced blocking with 3 modes: full block+, full block, and stealth block",
+    tags: ["Privacy", "Utility"],
     authors: [{ name: "KKTsN", id: 0n }],
 
     patches: [

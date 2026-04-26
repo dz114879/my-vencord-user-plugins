@@ -191,6 +191,7 @@ function queueReactionBarRefresh() {
 export default definePlugin({
     name: "ReactionFilter",
     description: "Hide reactions from specific emojis",
+    tags: ["Reactions", "Utility"],
     authors: [{ name: "KKTsN", id: 0n }],
     settings,
 

@@ -100,6 +100,7 @@ function getRandomizedTps(): number {
 export default definePlugin({
     name: "FakeAIFooter",
     description: "Automatically appends a fake AI-style footer to sent messages",
+    tags: ["Chat", "Fun"],
     authors: [{ name: "KKTsN", id: 0n }],
     settings,
 

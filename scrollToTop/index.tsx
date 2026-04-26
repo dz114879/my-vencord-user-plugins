@@ -64,6 +64,7 @@ function prependButtonToToolbar(match: string, pushNotificationButtonExpression:
 export default definePlugin({
     name: "ScrollToTop",
     description: "Adds a scroll-to-top button to the channel toolbar",
+    tags: ["Utility", "Shortcuts"],
     authors: [{ name: "KKTsN", id: 0n }],
 
     patches: [{

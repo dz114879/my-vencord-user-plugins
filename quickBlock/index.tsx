@@ -25,6 +25,7 @@ function onWindowBlur() {
 export default definePlugin({
     name: "QuickBlock",
     description: "Adds a block button to the message popover when holding Shift, to quickly block a user without confirmation",
+    tags: ["Privacy", "Shortcuts"],
     authors: [{ name: "KKTsN", id: 0n }],
     dependencies: ["MessagePopoverAPI"],
 
